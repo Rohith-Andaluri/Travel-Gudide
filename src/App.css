@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-container {
+  background-color: #eef4f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #334155;
+  padding: 5px;
+  border-bottom: 2px solid #52bbf0;
+}
+.tour-packages-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.tour-package {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 450px;
+  margin: 0px 25px 25px 0px;
+  background-color: #ffffff;
+}
+.tour-image {
+  width: 450px;
+}
+.tour-desc-container {
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.tour-heading {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #475569;
+}
+.tour-desc {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #64748b;
+}
